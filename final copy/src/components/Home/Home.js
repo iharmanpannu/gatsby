@@ -7,8 +7,9 @@ import Footer from '../Footer/Footer'
 const Home = () => (
   <div className="home">
     <section className="main-section">
+
       <div className="profile-picture">
-        <button>
+        <button className="button">
           <img
             src="https://image.ibb.co/ceo396/profile_picture.jpg"
             alt="profile_picture"

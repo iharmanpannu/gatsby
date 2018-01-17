@@ -7,14 +7,23 @@ import Footer from '../Footer/Footer'
 const Home = () => (
   <div className="home">
     <section className="main-section">
-
       <div className="profile-picture">
-        <button className="button">
+        <picture>
+          <img src="img/2.jpg" alt="img02" />
+          <figcaption>
+            <p>
+              Frontend Web Developer who loves to code and solve problems.
+              Looking for a company where I can make an impact.
+            </p>
+          </figcaption>
+        </picture>
+        {/* <button className="button">
+          
           <img
             src="https://image.ibb.co/ceo396/profile_picture.jpg"
             alt="profile_picture"
           />
-        </button>
+        </button> */}
       </div>
 
       <div>

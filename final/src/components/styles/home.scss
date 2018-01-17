@@ -7,16 +7,14 @@
     height: 100%;
     .line {
         height: 1px;
-        width: 800px;
-        background: rgba(192, 192, 192, 0.4);
+        width: 400px;
+        background: #cccbcb66;
         position: absolute;
     }
     .line1 {
-        top: 50%;
+        top: 30%;
         left: -170px;
-        -webkit-transform: rotate(28deg) scaleX(0);
-        transform: rotate(28deg) scaleX(0);
-        width: 50%;
+        transform: rotate(28deg) scaleX(1);
     }
     .line1:active {
         transform: rotate(28deg) scaleX(1);
@@ -37,20 +35,6 @@
     .line3:active {
         transform: rotate(-18deg) scaleX(1);
     }
-}
-
-.lines--active .line,
-{
-    transition-property: transform;
-    transition-duration: .2s;
-    transition-timing-function: ease-in;
-}
-
-.lines--active .line--one {
-    -webkit-transform: rotate(28deg) scaleX(1);
-    transform: rotate(28deg) scaleX(1);
-    -webkit-transition-delay: .1s;
-    transition-delay: .1s;
 }
 
 .home {

@@ -1,3 +1,58 @@
+.lines {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    .line {
+        height: 1px;
+        width: 800px;
+        background: rgba(192, 192, 192, 0.4);
+        position: absolute;
+    }
+    .line1 {
+        top: 50%;
+        left: -170px;
+        -webkit-transform: rotate(28deg) scaleX(0);
+        transform: rotate(28deg) scaleX(0);
+        width: 50%;
+    }
+    .line1:active {
+        transform: rotate(28deg) scaleX(1);
+    }
+    .line2 {
+        top: 100%;
+        right: -150px;
+        transform: rotate(48deg) scaleX(1);
+    }
+    .line2:active {
+        transform: rotate(48deg) scaleX(1);
+    }
+    .line3 {
+        bottom: 50%;
+        right: -10px;
+        transform: rotate(-18deg) scaleX(1);
+    }
+    .line3:active {
+        transform: rotate(-18deg) scaleX(1);
+    }
+}
+
+.lines--active .line,
+{
+    transition-property: transform;
+    transition-duration: .2s;
+    transition-timing-function: ease-in;
+}
+
+.lines--active .line--one {
+    -webkit-transform: rotate(28deg) scaleX(1);
+    transform: rotate(28deg) scaleX(1);
+    -webkit-transition-delay: .1s;
+    transition-delay: .1s;
+}
+
 .home {
     display: flex;
     flex-direction: column;

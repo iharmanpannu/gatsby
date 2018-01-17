@@ -56,7 +56,9 @@ const Project = () => (
               <a
                 target="_blank"
                 href={project.link}
-                style={{ color: "#16a085" }}
+                style={{ 
+                  color: "#16a085"
+                   }}
               >
                 {project.title}
               </a>

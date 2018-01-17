@@ -11,27 +11,23 @@
         color: $c-pink;
     }
     h1 {
-        font-size: 2em;
+        font-size: 2rem;
         color: $c-pink;
     }
     h2,
     h3 {
         color: $c-pink;
     }
+    p {
+        font-size: 1.1rem;
+    }
     .quote {
         color: $c-gray;
+        line-height: 2;
+        font-family: cursive;
+        font-weight: 200;
     }
     .resume-inside {
-        // .summary {
-        //     // li {
-        //     //     font-size: 1.3rem;
-        //     // }
-        // }
-        // .education {
-        //     // li {
-        //     //     font-size: 1.3rem;
-        //     // }
-        // }
         margin-top: 3em;
         h3 {
             font-size: 1.25rem;

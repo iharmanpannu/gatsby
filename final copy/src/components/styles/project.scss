@@ -4,6 +4,11 @@
     justify-content: center;
     align-items: center;
     margin-top: 3em;
+    .project-title {
+        a:hover {
+            color: $c-gray;
+        }
+    }
     h1 {
         font-size: 2em;
     }

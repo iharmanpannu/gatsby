@@ -1,7 +1,17 @@
 .navigation {
     display: flex;
     flex-direction: row;
-    margin: 0;
+    margin-left: 10px;
+    font-size: 10px;
+    #home-link::after {
+        background: $c-blue;
+    }
+    #about-link::after {
+        background: $c-pink;
+    }
+    #projects-link::after {
+        background: $c-green;
+    }
     li {
         list-style: none;
         display: inline-block;

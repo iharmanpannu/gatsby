@@ -16,17 +16,17 @@ const AboutPage = () => (
           Experienced in Building Frontend Web Applications(React JS) and Static
           Websites(Html, CSS, JS) and seeking to Learn and Grow under Mentorship
           of Proficient Developers. Passionate about learning new technologies
-          and solving problems.{" "}
+          and solving problems.
         </p>
         <p>
           I code every day and when I am not coding I read books, watch
           programming tutorials online, listen to podcasts, learn new
           technologies and workout. Check out my project on -
-          <a href="https://github.com/iharmanpannu">Github </a>
+          <a href="https://github.com/iharmanpannu"> Github </a>
           I look forward to applying my coding experience to a career in tech.
         </p>
         <br />
-        <i>
+        <i className="quote">
           " There are no secrets to success. It is the result of preparation,
           hard work, and learning from failure. "
         </i>
@@ -35,21 +35,16 @@ const AboutPage = () => (
       <div>
         <div className="resume-inside">
           <h3>Resume</h3>
-          <h4>SUMMARY OF QUALIFICATIONS </h4>
           <ul>
-            <li>
-              Received a Bachelors degree in Computer Applications from KSO
-              University.
-            </li>
             <li>
               Excellent organization, self-motivation, and problem-solving
               skills.
             </li>
-            <li>Creative, strong communication skills.</li>
+            <li>Creative, and strong communication skills.</li>
             <li>Passionate about web development and new technologies.</li>
           </ul>
 
-          <h4>EDUCATION </h4>
+          <h3>Education </h3>
           <ul>
             <li>
               Karnataka State Open University - Bachelors of Computer

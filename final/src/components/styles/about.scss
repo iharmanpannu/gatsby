@@ -1,4 +1,5 @@
 $c-pink: #F16D7E;
+
 .about {
     display: flex;
     flex-direction: column;
@@ -12,10 +13,12 @@ $c-pink: #F16D7E;
         font-size: 2em;
         color: $c-pink;
     }
-    h3,
-    h4,
-    a {
+    h2,
+    h3{
         color: $c-pink;
+    }
+    .quote {
+      color: #CAC9CA;
     }
     .resume-inside {
         margin-top: 3em;

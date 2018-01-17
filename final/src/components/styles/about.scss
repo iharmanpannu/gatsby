@@ -1,17 +1,27 @@
+$c-pink: #F16D7E;
 .about {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    // justify-content: center;
     align-items: center;
     margin-top: 3em;
+    .h {
+        color: $c-pink;
+    }
     h1 {
         font-size: 2em;
+        color: $c-pink;
+    }
+    h3,
+    h4,
+    a {
+        color: $c-pink;
     }
     .resume-inside {
         margin-top: 3em;
-        // background: #F16D7E;
         .list li {
             display: inline-block;
+            color: #CAC9CA;
         }
     }
 }

@@ -35,9 +35,9 @@
         display: flex;
         a {
             font-size: 1.2rem;
+            transition: 0.9s;
             &:hover {
                 color: #289EF2;
-                transition: 500ms ease-in;
             }
         }
     }

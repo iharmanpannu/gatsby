@@ -22,19 +22,19 @@
         color: $c-gray;
     }
     .resume-inside {
-        // .summary {
-        //     // li {
-        //     //     font-size: 1.3rem;
-        //     // }
-        // }
-        // .education {
-        //     // li {
-        //     //     font-size: 1.3rem;
-        //     // }
-        // }
+        .summary {
+            li {
+                font-size: 1.3rem;
+            }
+        }
+        .education {
+            li {
+                font-size: 1.3rem;
+            }
+        }
         margin-top: 3em;
         h3 {
-            font-size: 1.25rem;
+            font-size: 1.75rem;
         }
         .list li {
             display: inline-block;

@@ -4,31 +4,31 @@ import fontawesome from "@fortawesome/fontawesome";
 import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 // import Header from "../Header/Header"
 const Footer = () => (
-  <div>
+  <div >
     <footer className="footer">
       <ul>
         <li>
-          <a href="https://github.com/iharmanpannu">
-            <FontAwesomeIcon icon={["fab", "github"]} className="tooltip" />
+          <a href="">
+            <FontAwesomeIcon icon={["fab", "github"]} />
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/iharmanpannu">
+          <a href="">
             <FontAwesomeIcon icon={["fab", "twitter"]} />
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/iharmanpannu/">
+          <a href="">
             <FontAwesomeIcon icon={["fab", "linkedin"]} />
           </a>
         </li>
         <li>
-          <a href="https://codepen.io/iharmanpannu/#">
+          <a href="">
             <FontAwesomeIcon icon={["fab", "codepen"]} />
           </a>
         </li>
         <li>
-          <a href="mailto:iharmanpannu@gmail.com?Subject=Hire Me :)">
+          <a href="">
             <FontAwesomeIcon icon={["fab", "google"]} />
           </a>
         </li>

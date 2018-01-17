@@ -1,0 +1,21 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    h1 {
+        font-size: 2em;
+    }
+    h1,
+    {
+        text-align: center;
+        color: $c-green;
+    }
+    li {
+        color: $c-green;
+    }
+    a:hover {
+        color: $c-green;
+    }
+}

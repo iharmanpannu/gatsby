@@ -11,9 +11,6 @@
 }
 
 .main-section {
-    h4 {
-        font-weight: 400;
-    }
     .profile-picture {
         button {
             border: none;
@@ -38,33 +35,10 @@
 }
 
 .footer {
-    .tooltiptext {
-        visibility: hidden;
-        width: 120px;
-        background-color: black;
-        color: #fff;
-        text-align: center;
-        border-radius: 6px;
-        padding: 5px 0;
-        /* Position the tooltip */
-        position: absolute;
-        z-index: 1;
-        bottom: 100%;
-        left: 50%;
-        margin-left: -60px;
-    }
-    .tooltip:hover .tooltiptext {
-        visibility: visible;
-    }
-    li {
-        display: inline-block;
-        // display: flex;
-        // flex-direction: row;
-        // justify-content: center;
-        // align-items: center;
-        // text-align: center;
+    ul {
+        display: flex;
         a {
-            // font-size: 1.2rem;
+            font-size: 1.2rem;
             transition: 0.9s;
         }
     }

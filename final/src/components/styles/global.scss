@@ -1,3 +1,8 @@
+// Variables 
+$c-gray: #CAC9CA;
+$c-pink: #F16D7E;
+$c-blue: #289EF2;
+$c-green: #16a085;
 nav,
 ul,
 li,
@@ -16,13 +21,23 @@ h6 {
     line-height: 1.5;
 }
 
+h4 {
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+p,
+a {
+    font-size: 1.4rem;
+}
+
 li {
     list-style: none;
     padding: 2px 10px;
 }
 
 a {
-    color: #CAC9CA;
+    color: $c-gray;
     text-decoration: none;
 }
 
@@ -32,6 +47,6 @@ a {
 
 hr {
     height: 1px;
-    background: #CAC9CA;
+    background: $c-gray;
     border: none;
 }

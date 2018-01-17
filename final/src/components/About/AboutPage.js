@@ -6,7 +6,7 @@ import Footer from "../Footer/Footer";
 // from "@fortawesome/react-fontawesome"; import Header from "../Header/Header"
 const AboutPage = () => (
   <div>
-    <section className="about" color="#16a085">
+    <section className="about">
       <h1>About</h1>
       <div>
         <p>
@@ -35,7 +35,7 @@ const AboutPage = () => (
       <div>
         <div className="resume-inside">
           <h3>Resume</h3>
-          <ul>
+          <ul className="summary">
             <li>
               Excellent organization, self-motivation, and problem-solving
               skills.
@@ -45,7 +45,7 @@ const AboutPage = () => (
           </ul>
 
           <h3>Education </h3>
-          <ul>
+          <ul className="education">
             <li>
               Karnataka State Open University - Bachelors of Computer
               Applications 2016
@@ -89,7 +89,7 @@ const AboutPage = () => (
           </ul>
         </div>
       </div>
-      <Footer />
+      <Footer  />
     </section>
   </div>
 );

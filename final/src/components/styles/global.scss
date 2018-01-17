@@ -1,0 +1,30 @@
+nav,
+ul,
+li,
+a,
+p,
+Link,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #272B34;
+    margin: .3em 0;
+}
+
+li {
+    list-style: none;
+    padding: 2px 10px;
+}
+
+a {
+    color: #CAC9CA;
+    text-decoration: none;
+}
+
+.wrapper {
+    background-color: #FFFEFF;
+}

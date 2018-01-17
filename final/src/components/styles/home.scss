@@ -1,0 +1,44 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90vh;
+}
+
+.main-section {
+    .profile-picture {
+        button {
+            border: none;
+            background: initial;
+            cursor: pointer;
+        }
+        img {
+            max-width: 200px;
+            max-height: 250px;
+            clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+            // border: 10px solid rgb(163, 163, 163);
+            // clip-path: polygon(50% 0%, 90% 25%, 90% 75%, 50% 100%, 10% 75%, 10% 25%);
+        }
+    }
+    .name {
+        font-size: 1.8rem;
+        span:hover {
+            transform: rotateY(360deg);
+        }
+    }
+}
+
+.footer {
+    ul {
+        display: flex;
+        a {
+            font-size: 1.2rem;
+            &:hover {
+                color: #289EF2;
+                transition: 500ms ease-in;
+            }
+        }
+    }
+}

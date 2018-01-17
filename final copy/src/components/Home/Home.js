@@ -7,13 +7,11 @@ import Footer from '../Footer/Footer'
 const Home = () => (
   <div className="home">
     <section className="main-section">
-
       <div className="profile-picture">
         <button className="button">
           <img
             src="https://image.ibb.co/ceo396/profile_picture.jpg"
-            alt="profile_picture"
-          />
+            alt="profile_picture"/>
         </button>
       </div>
 
@@ -38,7 +36,7 @@ const Home = () => (
             <span>n</span>
           </span>
           <span>
-            <span> P</span>
+            <span>P</span>
           </span>
           <span>
             <span>a</span>
@@ -56,16 +54,15 @@ const Home = () => (
         <h4>Front End Web Developer</h4>
       </div>
     </section>
-    <Footer />
+    <Footer/>
   </div>
 );
 
 // const Header = () => (   <div     style={{       background: 'rebeccapurple',
-//       marginBottom: '1.45rem',     }}   >     <div       style={{
-// margin: '0 auto',         maxWidth: 960,         padding: '1.45rem
-// 1.0875rem',       }}     >       <h1 style={{ margin: 0 }}>         <Link
-//       to="/"           style={{             color: 'white',
-// textDecoration: 'none',           }}         >           Harman
-// </Link>       </h1>     </div>   </div> )
+//       marginBottom: '1.45rem',     }}   >     <div       style={{ margin: '0
+// auto',         maxWidth: 960,         padding: '1.45rem 1.0875rem',       }}
+//  >       <h1 style={{ margin: 0 }}>         <Link       to="/" style={{
+//  color: 'white', textDecoration: 'none',           }}     > Harman </Link>
+//    </h1>     </div>   </div> )
 
 export default Home;

@@ -10,9 +10,8 @@ const AboutPage = () => (
       <h1>About</h1>
       <div>
         <p>
-          Hi, I'm <span className="h">H</span>arman Pannu.
-        </p>
-        <p>
+          Hi,<br/> I am Harman Pannu, 
+     
           Experienced in Building Frontend Web Applications(React JS) and Static
           Websites(Html, CSS, JS) and seeking to Learn and Grow under Mentorship
           of Proficient Developers. Passionate about learning new technologies

@@ -8,30 +8,21 @@ const Home = () => (
   <div className="home">
     <section className="main-section">
       <div className="profile-picture">
-        <picture>
-          <img src="img/2.jpg" alt="img02" />
-          <figcaption>
-            <p>
-              Frontend Web Developer who loves to code and solve problems.
-              Looking for a company where I can make an impact.
-            </p>
-          </figcaption>
-        </picture>
-        {/* <button className="button">
-          
+
+        <button className="button">
           <img
             src="https://image.ibb.co/ceo396/profile_picture.jpg"
             alt="profile_picture"
           />
-        </button> */}
+        </button>
       </div>
 
       <div>
         <h1 className="name">
-          <span>
+          <span className="spin-text">
             <span>H</span>
           </span>
-          <span>
+          <span className="spin-text">
             <span>a</span>
           </span>
           <span>

@@ -18,9 +18,9 @@ const AboutPage = () => (
           result of preparation, hard work, and learning from failure. " I code
           every day and when I am not coding I read books, watch programming
           tutorials online, listen to podcasts, learn new technologies and
-          workout. Check out my project on Github -
-          https://github.com/iharmanpannu I look forward to applying my coding
-          experience to a career in tech.
+          workout. Check out my project on -{" "}
+          <a href="https://github.com/iharmanpannu">Github </a>
+          I look forward to applying my coding experience to a career in tech.
         </p>
       </div>
 
@@ -41,8 +41,6 @@ const AboutPage = () => (
             <li>Passionate about web development and new technologies.</li>
           </ul>
 
-          <h4> Experience </h4>
-
           <h4>EDUCATION </h4>
           <ul>
             <li>
@@ -56,6 +54,16 @@ const AboutPage = () => (
             <li>
               TeamTreeHouse - Jan 2018 - Present - Tech Degree - Full Stack
               JavaScript
+            </li>
+              <h4>Technologies I am currently Learning at Treehouse </h4>
+              <ul className="list">
+                <li>JavaScript</li>
+                <li>jQuery</li>
+                <li>Node.js</li>
+                <li>Angular</li>
+                <li>Express</li>
+                <li>MongoDB</li>
+              </ul>
             </li>
           </ul>
         </div>

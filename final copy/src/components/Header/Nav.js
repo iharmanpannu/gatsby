@@ -1,9 +1,9 @@
 import React from "react";
 import Link from "gatsby-link";
-import Particles from "react-particles-js";
 
 const Nav = () => (
   <header>
+
     <nav>
       <ul className="navigation">
         <li>
@@ -23,26 +23,11 @@ const Nav = () => (
         </li>
       </ul>
     </nav>
+
     <div className="lines lines--active">
-      <span className="line1 line" />
-      <span className="line2 line" />
-      <span className="line3 line" />
-      <Particles
-        params={{
-          particles: {
-            line_linked: {
-              shadow: {
-                enable: true,
-                color: "#000",
-                blur: 1
-              }
-            }
-          }
-        }}
-        style={{
-          zIndex: "-1"
-        }}
-      />
+      <span className="line1 line"/>
+      <span className="line2 line"/>
+      <span className="line3 line"/>
     </div>
   </header>
 );

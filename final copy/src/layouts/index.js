@@ -13,30 +13,23 @@ fontawesome
   .library
   .add(brands, faCheckSquare);
 
-const TemplateWrapper = ({ children }) => (
+const TemplateWrapper = ({children}) => (
   <div>
     <Helmet
       title="Harman Pannu"
       meta={[
-        {
-          name: "description",
-          content: "Sample"
-        },
-        {
-          name: "keywords",
-          content: "sample, something"
-        }
-      ]}
-    />
-    <Header />
-    <div className="wrapper"
-      style={{
-        margin: "0 auto",
-        maxWidth: 960,
-        padding: "0px 1.0875rem 1.45rem",
-        paddingTop: 0
-      }}
-    >
+      {
+        name: "description",
+        content: "Sample"
+      }, {
+        name: "keywords",
+        content: "sample, something"
+      }
+    ]}/>
+
+    <Header/>
+
+    <div className="wrapper">
       {children()}
     </div>
   </div>
@@ -47,3 +40,5 @@ TemplateWrapper.propTypes = {
 }
 
 export default TemplateWrapper
+// style={{   margin: "0 auto",   maxWidth: 960,   padding: "0px 1.0875rem
+// 1.45rem",   paddingTop: 0,   zIndex: 10 }}

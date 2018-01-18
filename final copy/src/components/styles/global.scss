@@ -42,11 +42,15 @@ a {
 }
 
 .wrapper {
-    background-color: #FFFEFF;
+    background-color: red;
 }
 
 hr {
     height: 1px;
     background: $c-gray;
     border: none;
+}
+
+#___gatsby {
+    background: green;
 }

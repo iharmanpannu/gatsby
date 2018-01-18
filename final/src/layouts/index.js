@@ -19,12 +19,12 @@ const TemplateWrapper = ({ children }) => (
       title="Harman Pannu"
       meta={[
         {
-          name: "description",
-          content: "Sample"
+          name: "Harman Pannu's Portfolio Website",
+          content: "Portfolio Website"
         },
         {
           name: "keywords",
-          content: "sample, something"
+          content: "Portfolio Website"
         }
       ]}
     />

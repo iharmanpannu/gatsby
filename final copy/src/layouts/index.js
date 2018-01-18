@@ -8,6 +8,7 @@ import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 import brands from "@fortawesome/fontawesome-free-brands";
 import faCheckSquare from "@fortawesome/fontawesome-free-solid/faCheckSquare";
 import Footer from '../components/Footer/Footer';
+import Particles from "react-particles-js";
 
 fontawesome
   .library
@@ -19,24 +20,26 @@ const TemplateWrapper = ({ children }) => (
       title="Harman Pannu"
       meta={[
         {
-          name: "description",
-          content: "Sample"
+          name: "Harman Pannu's Portfolio Website",
+          content: "Portfolio Website"
         },
         {
           name: "keywords",
-          content: "sample, something"
+          content: "Portfolio Website"
         }
       ]}
     />
     <Header />
-    <div className="wrapper"
+    <div
+      className="wrapper"
       style={{
         margin: "0 auto",
         maxWidth: 960,
         padding: "0px 1.0875rem 1.45rem",
-        paddingTop: 0
+        paddingTop: 0,
       }}
     >
+  
       {children()}
     </div>
   </div>

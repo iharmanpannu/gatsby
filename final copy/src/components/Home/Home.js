@@ -2,17 +2,36 @@ import React from "react"
 import Link from "gatsby-link"
 import Footer from '../Footer/Footer'
 import Particles from "react-particles-js";
+import ProfilePic from '../../asset/profile.png'
 
 // import fontawesome from "@fortawesome/fontawesome"; import FontAwesomeIcon
 // from "@fortawesome/react-fontawesome"; import Header from "../Header/Header"
 const Home = () => (
   <div className="home">
+    <div className="lines lines--active">
+            <Particles 
+              params={{
+            		particles: {
+            			line_linked: {
+            				shadow: {
+            					enable: true,
+            					color: "#3CA9D1",
+            					blur: 5
+            				}
+            			}
+            		}
+            	}}
+              style={{
+                width: '100%',
+              }}
+            />
 
+    </div>
     <section className="main-section">
       <div className="profile-picture">
         <button className="button">
           <img
-            src="https://image.ibb.co/ceo396/profile_picture.jpg"
+            src={ProfilePic}
             alt="profile_picture"/>
         </button>
       </div>
@@ -61,11 +80,6 @@ const Home = () => (
   </div>
 );
 
-// const Header = () => (   <div     style={{       background: 'rebeccapurple',
-//       marginBottom: '1.45rem',     }}   >     <div       style={{ margin: '0
-// auto',         maxWidth: 960,         padding: '1.45rem 1.0875rem',       }}
-// >       <h1 style={{ margin: 0 }}>         <Link       to="/" style={{
-// color: 'white', textDecoration: 'none',           }}     > Harman </Link>
-// </h1>     </div>   </div> )
+
 
 export default Home;

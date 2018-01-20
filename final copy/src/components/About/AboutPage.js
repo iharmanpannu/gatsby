@@ -10,13 +10,10 @@ const AboutPage = () => (
       <h1>About</h1>
       <div>
         <p>
-          Hi, I'm <span className="h">H</span>arman Pannu.
-        </p>
-        <p>
-          Experienced in Building Frontend Web Applications(React JS) and Static
-          Websites(Html, CSS, JS) and seeking to Learn and Grow under Mentorship
-          of Proficient Developers. Passionate about learning new technologies
-          and solving problems.
+          Hi,<br /> I am Harman Pannu, Experienced in Building Frontend Web
+          Applications(React JS) and Static Websites(Html, CSS, JS) and seeking
+          to Learn and Grow under Mentorship of Proficient Developers.
+          Passionate about learning new technologies and solving problems.
         </p>
         <p>
           I code every day and when I am not coding I read books, watch
@@ -89,7 +86,7 @@ const AboutPage = () => (
           </ul>
         </div>
       </div>
-      <Footer  />
+      <Footer />
     </section>
   </div>
 );
